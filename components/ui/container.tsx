@@ -2,7 +2,6 @@ interface ContinerProps {
     children: React.ReactNode;
 }
 
-
 const Container: React.FC<ContinerProps> = ({
     children
 }) => {
@@ -12,4 +11,5 @@ const Container: React.FC<ContinerProps> = ({
         </div>
     )
 }
+
 export default Container;
